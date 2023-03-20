@@ -22,11 +22,11 @@ namespace FormularioMDI
         {
             decimal n;
 
-            if (!ob1.vacio(txtMetros.Text))
+            if (ob1.vacio(txtMetros.Text))
             {
                 n = decimal.Parse(txtMetros.Text);
 
-                lblMm.Text = ((n * 1000m) + "\n" + (n * 100) + "\n" + (n * 10) + "\n" + (n) + "\n" + (n / 10m) + "\n" + (n / 100m) + "\n" + (n / 1000m)).ToString();
+                lblMm.Text = ((n * 1000m) + " mm" + "\n" + (n * 100) + " cm"+ "\n" + (n * 10)+ " dm" + "\n" + (n) + " m" + "\n" + (n / 10m)+ " dam" + "\n" + (n / 100m)+ " hm" + "\n" + (n / 1000m) + " km").ToString();
             }
             else
             {
@@ -47,6 +47,18 @@ namespace FormularioMDI
         private void txtMetros_KeyPress(object sender, KeyPressEventArgs e)
         {
             e.Handled = !ob1.validarNumeros(e.KeyChar, txtMetros.Text);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            lblMm.Text = "";
+            txtMetros.Text = "";
+            txtMetros.Select();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

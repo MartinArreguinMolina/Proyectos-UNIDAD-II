@@ -49,11 +49,19 @@ namespace FormularioMDI
         {
             if (cadenaUno.Equals(""))
             {
-                return true;
+                return false;
+            }
+            else if (cadenaUno.Equals("-"))
+            {
+                return false;
+            }
+            else if(cadenaUno.Equals("."))
+            {
+                return false;
             }
             else
             {
-                return false;
+                return true;
             }
         }
     }

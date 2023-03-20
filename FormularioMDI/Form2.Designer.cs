@@ -66,6 +66,7 @@
             button1.TabIndex = 1;
             button1.Text = "LIMPIAR";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -75,6 +76,7 @@
             button2.TabIndex = 2;
             button2.Text = "FINALIZAR";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // groupBox2
             // 

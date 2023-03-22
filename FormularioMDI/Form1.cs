@@ -33,5 +33,17 @@ namespace FormularioMDI
             ob1.MdiParent = this;
             ob1.Show();
         }
+
+        private void calculadoraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Calculadora ob2 = new Calculadora();
+            ob2.MdiParent = this;
+            ob2.Show();
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
     }
 }

@@ -52,6 +52,7 @@
             menuStrip1.Size = new Size(800, 24);
             menuStrip1.TabIndex = 1;
             menuStrip1.Text = "menuStrip1";
+            menuStrip1.ItemClicked += menuStrip1_ItemClicked;
             // 
             // salirToolStripMenuItem
             // 
@@ -94,6 +95,7 @@
             calculadoraToolStripMenuItem.Name = "calculadoraToolStripMenuItem";
             calculadoraToolStripMenuItem.Size = new Size(180, 22);
             calculadoraToolStripMenuItem.Text = "Calculadora";
+            calculadoraToolStripMenuItem.Click += calculadoraToolStripMenuItem_Click;
             // 
             // analizadorToolStripMenuItem
             // 

@@ -16,3 +16,4 @@ C:\Users\TICSI\source\repos\FormularioMDI\FormularioMDI\obj\Debug\net7.0-windows
 C:\Users\TICSI\source\repos\FormularioMDI\FormularioMDI\obj\Debug\net7.0-windows\FormularioMDI.pdb
 C:\Users\TICSI\source\repos\FormularioMDI\FormularioMDI\obj\Debug\net7.0-windows\FormularioMDI.genruntimeconfig.cache
 C:\Users\TICSI\source\repos\FormularioMDI\FormularioMDI\obj\Debug\net7.0-windows\ref\FormularioMDI.dll
+C:\Users\TICSI\source\repos\FormularioMDI\FormularioMDI\obj\Debug\net7.0-windows\FormularioMDI.Calculadora.resources

@@ -45,5 +45,36 @@ namespace FormularioMDI
         {
 
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void semaforoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Semaforo ob1 = new Semaforo();
+            ob1.MdiParent = this;
+            ob1.Show();
+        }
+
+        private void numeroNToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            NumeroMagico ob1 = new NumeroMagico();
+            ob1.MdiParent = this;
+            ob1.Show();
+        }
+
+        private void ayudaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void acercaDeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AcercaDePrincipal ob1 = new AcercaDePrincipal();
+            ob1.MdiParent = this;
+            ob1.Show();
+        }
     }
 }

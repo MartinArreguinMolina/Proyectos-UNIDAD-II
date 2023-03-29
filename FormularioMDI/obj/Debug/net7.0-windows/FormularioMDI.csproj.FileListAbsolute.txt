@@ -4,7 +4,6 @@ C:\Users\TICSI\source\repos\FormularioMDI\FormularioMDI\bin\Debug\net7.0-windows
 C:\Users\TICSI\source\repos\FormularioMDI\FormularioMDI\bin\Debug\net7.0-windows\FormularioMDI.dll
 C:\Users\TICSI\source\repos\FormularioMDI\FormularioMDI\bin\Debug\net7.0-windows\FormularioMDI.pdb
 C:\Users\TICSI\source\repos\FormularioMDI\FormularioMDI\obj\Debug\net7.0-windows\FormularioMDI.csproj.AssemblyReference.cache
-C:\Users\TICSI\source\repos\FormularioMDI\FormularioMDI\obj\Debug\net7.0-windows\FormularioMDI.Form1.resources
 C:\Users\TICSI\source\repos\FormularioMDI\FormularioMDI\obj\Debug\net7.0-windows\FormularioMDI.Convertidor.resources
 C:\Users\TICSI\source\repos\FormularioMDI\FormularioMDI\obj\Debug\net7.0-windows\FormularioMDI.csproj.GenerateResource.cache
 C:\Users\TICSI\source\repos\FormularioMDI\FormularioMDI\obj\Debug\net7.0-windows\FormularioMDI.GeneratedMSBuildEditorConfig.editorconfig
@@ -17,3 +16,15 @@ C:\Users\TICSI\source\repos\FormularioMDI\FormularioMDI\obj\Debug\net7.0-windows
 C:\Users\TICSI\source\repos\FormularioMDI\FormularioMDI\obj\Debug\net7.0-windows\FormularioMDI.genruntimeconfig.cache
 C:\Users\TICSI\source\repos\FormularioMDI\FormularioMDI\obj\Debug\net7.0-windows\ref\FormularioMDI.dll
 C:\Users\TICSI\source\repos\FormularioMDI\FormularioMDI\obj\Debug\net7.0-windows\FormularioMDI.Calculadora.resources
+C:\Users\TICSI\source\repos\FormularioMDI\FormularioMDI\obj\Debug\net7.0-windows\FormularioMDI.CalculadoraBasica.resources
+C:\Users\TICSI\source\repos\FormularioMDI\FormularioMDI\obj\Debug\net7.0-windows\FormularioMDI.ContadorCadenas.resources
+C:\Users\TICSI\source\repos\FormularioMDI\FormularioMDI\obj\Debug\net7.0-windows\FormularioMDI.Seguidor.resources
+C:\Users\TICSI\source\repos\FormularioMDI\FormularioMDI\obj\Debug\net7.0-windows\FormularioMDI.Coordenadas.resources
+C:\Users\TICSI\source\repos\FormularioMDI\FormularioMDI\obj\Debug\net7.0-windows\FormularioMDI.Properties.Resources.resources
+C:\Users\TICSI\source\repos\FormularioMDI\FormularioMDI\obj\Debug\net7.0-windows\FormularioMDI.Semaforo.resources
+C:\Users\TICSI\source\repos\FormularioMDI\FormularioMDI\obj\Debug\net7.0-windows\FormularioMDI.NumeroMagico.resources
+C:\Users\TICSI\source\repos\FormularioMDI\FormularioMDI\obj\Debug\net7.0-windows\FormularioMDI.AdivinaElNumero.resources
+C:\Users\TICSI\source\repos\FormularioMDI\FormularioMDI\obj\Debug\net7.0-windows\FormularioMDI.AdivinaElNumeroTiempo.resources
+C:\Users\TICSI\source\repos\FormularioMDI\FormularioMDI\obj\Debug\net7.0-windows\FormularioMDI.AcercaDePrincipal.resources
+C:\Users\TICSI\source\repos\FormularioMDI\FormularioMDI\obj\Debug\net7.0-windows\FormularioMDI.AcercaDeNumeroMagico.resources
+C:\Users\TICSI\source\repos\FormularioMDI\FormularioMDI\obj\Debug\net7.0-windows\FormularioMDI.Form1.resources

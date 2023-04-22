@@ -48,6 +48,9 @@ namespace FormularioMDI
                 TiempoRestante.Stop();
                 MessageBox.Show("Tu tiempo se a agotado");
                 label1.Text = "Tiempo restante: " + tiempoLimiteSegundos.ToString();
+                label4.Text = "Has perdidio esta partida :(";
+                PerdisteGIf.Visible = true;
+                GanasteGif.Visible = false;
                 textBox1.Enabled = false;
                 btnVerificar.Enabled = false;
             }

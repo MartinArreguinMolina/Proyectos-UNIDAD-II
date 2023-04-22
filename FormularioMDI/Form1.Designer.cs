@@ -33,16 +33,15 @@
             salirToolStripMenuItem1 = new ToolStripMenuItem();
             proyectosToolStripMenuItem = new ToolStripMenuItem();
             convertidorToolStripMenuItem = new ToolStripMenuItem();
+            toolStripSeparator2 = new ToolStripSeparator();
             semaforoToolStripMenuItem = new ToolStripMenuItem();
+            toolStripSeparator3 = new ToolStripSeparator();
             calculadoraToolStripMenuItem = new ToolStripMenuItem();
+            toolStripSeparator4 = new ToolStripSeparator();
             numeroNToolStripMenuItem = new ToolStripMenuItem();
             ayudaToolStripMenuItem = new ToolStripMenuItem();
             acercaDeToolStripMenuItem = new ToolStripMenuItem();
             statusStrip1 = new StatusStrip();
-            toolStripSeparator1 = new ToolStripSeparator();
-            toolStripSeparator2 = new ToolStripSeparator();
-            toolStripSeparator3 = new ToolStripSeparator();
-            toolStripSeparator4 = new ToolStripSeparator();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -67,13 +66,13 @@
             // salirToolStripMenuItem1
             // 
             salirToolStripMenuItem1.Name = "salirToolStripMenuItem1";
-            salirToolStripMenuItem1.Size = new Size(180, 22);
+            salirToolStripMenuItem1.Size = new Size(96, 22);
             salirToolStripMenuItem1.Text = "Salir";
             salirToolStripMenuItem1.Click += salirToolStripMenuItem1_Click;
             // 
             // proyectosToolStripMenuItem
             // 
-            proyectosToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { toolStripSeparator1, convertidorToolStripMenuItem, toolStripSeparator2, semaforoToolStripMenuItem, toolStripSeparator3, calculadoraToolStripMenuItem, toolStripSeparator4, numeroNToolStripMenuItem });
+            proyectosToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { convertidorToolStripMenuItem, toolStripSeparator2, semaforoToolStripMenuItem, toolStripSeparator3, calculadoraToolStripMenuItem, toolStripSeparator4, numeroNToolStripMenuItem });
             proyectosToolStripMenuItem.Name = "proyectosToolStripMenuItem";
             proyectosToolStripMenuItem.Size = new Size(71, 20);
             proyectosToolStripMenuItem.Text = "Proyectos";
@@ -86,6 +85,11 @@
             convertidorToolStripMenuItem.Text = "Convertidor";
             convertidorToolStripMenuItem.Click += convertidorToolStripMenuItem_Click;
             // 
+            // toolStripSeparator2
+            // 
+            toolStripSeparator2.Name = "toolStripSeparator2";
+            toolStripSeparator2.Size = new Size(177, 6);
+            // 
             // semaforoToolStripMenuItem
             // 
             semaforoToolStripMenuItem.Name = "semaforoToolStripMenuItem";
@@ -93,12 +97,22 @@
             semaforoToolStripMenuItem.Text = "Semaforo";
             semaforoToolStripMenuItem.Click += semaforoToolStripMenuItem_Click;
             // 
+            // toolStripSeparator3
+            // 
+            toolStripSeparator3.Name = "toolStripSeparator3";
+            toolStripSeparator3.Size = new Size(177, 6);
+            // 
             // calculadoraToolStripMenuItem
             // 
             calculadoraToolStripMenuItem.Name = "calculadoraToolStripMenuItem";
             calculadoraToolStripMenuItem.Size = new Size(180, 22);
             calculadoraToolStripMenuItem.Text = "Calculadora";
             calculadoraToolStripMenuItem.Click += calculadoraToolStripMenuItem_Click;
+            // 
+            // toolStripSeparator4
+            // 
+            toolStripSeparator4.Name = "toolStripSeparator4";
+            toolStripSeparator4.Size = new Size(177, 6);
             // 
             // numeroNToolStripMenuItem
             // 
@@ -118,7 +132,7 @@
             // acercaDeToolStripMenuItem
             // 
             acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
-            acercaDeToolStripMenuItem.Size = new Size(180, 22);
+            acercaDeToolStripMenuItem.Size = new Size(126, 22);
             acercaDeToolStripMenuItem.Text = "Acerca de";
             acercaDeToolStripMenuItem.Click += acercaDeToolStripMenuItem_Click;
             // 
@@ -130,26 +144,6 @@
             statusStrip1.TabIndex = 2;
             statusStrip1.Text = "statusStrip1";
             statusStrip1.ItemClicked += statusStrip1_ItemClicked;
-            // 
-            // toolStripSeparator1
-            // 
-            toolStripSeparator1.Name = "toolStripSeparator1";
-            toolStripSeparator1.Size = new Size(177, 6);
-            // 
-            // toolStripSeparator2
-            // 
-            toolStripSeparator2.Name = "toolStripSeparator2";
-            toolStripSeparator2.Size = new Size(177, 6);
-            // 
-            // toolStripSeparator3
-            // 
-            toolStripSeparator3.Name = "toolStripSeparator3";
-            toolStripSeparator3.Size = new Size(177, 6);
-            // 
-            // toolStripSeparator4
-            // 
-            toolStripSeparator4.Name = "toolStripSeparator4";
-            toolStripSeparator4.Size = new Size(177, 6);
             // 
             // Form1
             // 
@@ -182,7 +176,6 @@
         private ToolStripMenuItem calculadoraToolStripMenuItem;
         private ToolStripMenuItem numeroNToolStripMenuItem;
         private ToolStripMenuItem acercaDeToolStripMenuItem;
-        private ToolStripSeparator toolStripSeparator1;
         private ToolStripSeparator toolStripSeparator2;
         private ToolStripSeparator toolStripSeparator3;
         private ToolStripSeparator toolStripSeparator4;

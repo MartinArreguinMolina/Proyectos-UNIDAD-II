@@ -59,6 +59,14 @@ namespace FormularioMDI
             {
                 return false;
             }
+            else if(cadenaUno.Equals("-."))
+            {
+                return false;
+            }
+            else if(cadenaUno.Equals(".-"))
+            {
+                return false;
+            }
             else
             {
                 return true;

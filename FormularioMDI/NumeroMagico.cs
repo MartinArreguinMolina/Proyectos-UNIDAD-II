@@ -35,6 +35,11 @@ namespace FormularioMDI
             ControlHasta.Maximum = 100;
             ControlHasta.Minimum = 2;
             ControlHasta.Value = 2;
+
+            ControlHasta.ReadOnly = true;
+            ControlDesde.ReadOnly = true;
+
+
         }
 
         private void groupBox3_Enter(object sender, EventArgs e)

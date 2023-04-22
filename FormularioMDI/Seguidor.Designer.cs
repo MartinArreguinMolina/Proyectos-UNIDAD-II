@@ -69,6 +69,7 @@
             Controls.Add(checkBoxSeguidor);
             Name = "Seguidor";
             Text = "Seguidor";
+            FormClosed += Seguidor_FormClosed;
             Load += Seguidor_Load;
             LocationChanged += checkBoxSeguidor_CheckedChanged;
             SizeChanged += checkBoxSeguidor_CheckedChanged;

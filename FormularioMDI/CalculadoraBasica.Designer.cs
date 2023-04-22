@@ -92,6 +92,7 @@
             groupBox1.Size = new Size(357, 134);
             groupBox1.TabIndex = 4;
             groupBox1.TabStop = false;
+            groupBox1.Enter += groupBox1_Enter;
             // 
             // lblResultados
             // 
@@ -99,6 +100,7 @@
             lblResultados.Name = "lblResultados";
             lblResultados.Size = new Size(158, 32);
             lblResultados.TabIndex = 4;
+            lblResultados.Click += lblResultados_Click;
             // 
             // groupBox2
             // 

@@ -42,5 +42,10 @@ namespace FormularioMDI
         {
 
         }
+
+        private void Seguidor_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            ob1.Close();
+        }
     }
 }

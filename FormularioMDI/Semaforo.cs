@@ -29,7 +29,6 @@ namespace FormularioMDI
             ControlTiempoAmarillo.Minimum = 1;
             ControlTiempoVerde.Maximum = 60;
             ControlTiempoVerde.Minimum = 1;
-
             iniciarlizarTempos();
         }
 
@@ -50,11 +49,12 @@ namespace FormularioMDI
 
         private void tiempoRojo_Tick(object sender, EventArgs e)
         {
-
             if (rojo >= 1)
             {
-                lblVerde.Text = "";
                 botonCircular3.Visible = true;
+
+                lblVerde.Text = "";
+
                 lblRojo.Text = rojo.ToString();
 
                 rojo -= 1;
@@ -67,17 +67,38 @@ namespace FormularioMDI
                     tiempoAmarillo.Start();
                 }
             }
+
         }
 
         private void button1_Click_1(object sender, EventArgs e)
         {
+
             if (btnIniciar.Text.Equals("INICIAR"))
             {
-                leerDatos();
                 iniciarTiempos();
-
+                leerDatos();
                 groupBox1.Enabled = false;
                 btnIniciar.Text = "DETENER";
+
+                if (rojo >= 1)
+                {
+                    botonCircular3.Visible = true;
+
+                    lblVerde.Text = "";
+
+                    lblRojo.Text = rojo.ToString();
+
+                    rojo -= 1;
+
+                    botonCircular1.Visible = false;
+
+                    if (rojo == 0)
+                    {
+                        tiempoRojo.Stop();
+                        tiempoAmarillo.Start();
+                    }
+                }
+
             }
             else if (btnIniciar.Text.Equals("DETENER"))
             {

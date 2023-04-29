@@ -2,6 +2,8 @@ namespace FormularioMDI
 {
     public partial class Form1 : Form
     {
+        Inicio obs;
+        int tiempo = 2;
         public Form1()
         {
             InitializeComponent();
@@ -60,9 +62,11 @@ namespace FormularioMDI
 
         private void numeroNToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            NumeroMagico ob1 = new NumeroMagico();
-            ob1.MdiParent = this;
-            ob1.Show();
+            tiempo = 2;
+            obs = new Inicio();
+            obs.MdiParent = this;
+            obs.Show();
+            tiempoMagico.Start();
         }
 
         private void ayudaToolStripMenuItem_Click(object sender, EventArgs e)
@@ -75,6 +79,22 @@ namespace FormularioMDI
             AcercaDePrincipal ob1 = new AcercaDePrincipal();
             ob1.MdiParent = this;
             ob1.Show();
+        }
+
+        private void tiempoMagico_Tick(object sender, EventArgs e)
+        {
+            if (tiempo > 0)
+            {
+                tiempo--;
+                if (tiempo == 0)
+                {
+                    tiempoMagico.Stop();
+                    obs.Dispose();
+                    NumeroMagico ob1 = new NumeroMagico();
+                    ob1.MdiParent = this;
+                    ob1.Show();
+                }
+            }
         }
     }
 }

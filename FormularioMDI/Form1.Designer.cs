@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             menuStrip1 = new MenuStrip();
             salirToolStripMenuItem = new ToolStripMenuItem();
             salirToolStripMenuItem1 = new ToolStripMenuItem();
@@ -42,6 +43,7 @@
             ayudaToolStripMenuItem = new ToolStripMenuItem();
             acercaDeToolStripMenuItem = new ToolStripMenuItem();
             statusStrip1 = new StatusStrip();
+            tiempoMagico = new System.Windows.Forms.Timer(components);
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -81,43 +83,43 @@
             // convertidorToolStripMenuItem
             // 
             convertidorToolStripMenuItem.Name = "convertidorToolStripMenuItem";
-            convertidorToolStripMenuItem.Size = new Size(180, 22);
+            convertidorToolStripMenuItem.Size = new Size(137, 22);
             convertidorToolStripMenuItem.Text = "Convertidor";
             convertidorToolStripMenuItem.Click += convertidorToolStripMenuItem_Click;
             // 
             // toolStripSeparator2
             // 
             toolStripSeparator2.Name = "toolStripSeparator2";
-            toolStripSeparator2.Size = new Size(177, 6);
+            toolStripSeparator2.Size = new Size(134, 6);
             // 
             // semaforoToolStripMenuItem
             // 
             semaforoToolStripMenuItem.Name = "semaforoToolStripMenuItem";
-            semaforoToolStripMenuItem.Size = new Size(180, 22);
+            semaforoToolStripMenuItem.Size = new Size(137, 22);
             semaforoToolStripMenuItem.Text = "Semaforo";
             semaforoToolStripMenuItem.Click += semaforoToolStripMenuItem_Click;
             // 
             // toolStripSeparator3
             // 
             toolStripSeparator3.Name = "toolStripSeparator3";
-            toolStripSeparator3.Size = new Size(177, 6);
+            toolStripSeparator3.Size = new Size(134, 6);
             // 
             // calculadoraToolStripMenuItem
             // 
             calculadoraToolStripMenuItem.Name = "calculadoraToolStripMenuItem";
-            calculadoraToolStripMenuItem.Size = new Size(180, 22);
+            calculadoraToolStripMenuItem.Size = new Size(137, 22);
             calculadoraToolStripMenuItem.Text = "Calculadora";
             calculadoraToolStripMenuItem.Click += calculadoraToolStripMenuItem_Click;
             // 
             // toolStripSeparator4
             // 
             toolStripSeparator4.Name = "toolStripSeparator4";
-            toolStripSeparator4.Size = new Size(177, 6);
+            toolStripSeparator4.Size = new Size(134, 6);
             // 
             // numeroNToolStripMenuItem
             // 
             numeroNToolStripMenuItem.Name = "numeroNToolStripMenuItem";
-            numeroNToolStripMenuItem.Size = new Size(180, 22);
+            numeroNToolStripMenuItem.Size = new Size(137, 22);
             numeroNToolStripMenuItem.Text = "Numero N";
             numeroNToolStripMenuItem.Click += numeroNToolStripMenuItem_Click;
             // 
@@ -144,6 +146,11 @@
             statusStrip1.TabIndex = 2;
             statusStrip1.Text = "statusStrip1";
             statusStrip1.ItemClicked += statusStrip1_ItemClicked;
+            // 
+            // tiempoMagico
+            // 
+            tiempoMagico.Interval = 1000;
+            tiempoMagico.Tick += tiempoMagico_Tick;
             // 
             // Form1
             // 
@@ -179,5 +186,6 @@
         private ToolStripSeparator toolStripSeparator2;
         private ToolStripSeparator toolStripSeparator3;
         private ToolStripSeparator toolStripSeparator4;
+        private System.Windows.Forms.Timer tiempoMagico;
     }
 }

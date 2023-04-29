@@ -28,3 +28,4 @@ C:\Users\TICSI\source\repos\FormularioMDI\FormularioMDI\obj\Debug\net7.0-windows
 C:\Users\TICSI\source\repos\FormularioMDI\FormularioMDI\obj\Debug\net7.0-windows\FormularioMDI.AcercaDePrincipal.resources
 C:\Users\TICSI\source\repos\FormularioMDI\FormularioMDI\obj\Debug\net7.0-windows\FormularioMDI.AcercaDeNumeroMagico.resources
 C:\Users\TICSI\source\repos\FormularioMDI\FormularioMDI\obj\Debug\net7.0-windows\FormularioMDI.Form1.resources
+C:\Users\TICSI\source\repos\FormularioMDI\FormularioMDI\obj\Debug\net7.0-windows\FormularioMDI.Inicio.resources
